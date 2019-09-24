@@ -305,37 +305,37 @@ template {
 
 @font-face {
   font-family: 'lifehackmedium';
-  src: url("../fonts/Lifehack-Medium.woff2") format("woff2"), url("../fonts/Lifehack-Medium.woff") format("woff");
+  src: url("./fonts/Lifehack-Medium.woff2") format("woff2"), url("./fonts/Lifehack-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal; }
 
 @font-face {
   font-family: 'Gagalin-Regular';
-  src: url("../fonts/Gagalin-Regular.woff2") format("woff2"), url("../fonts/Gagalin-Regular.woff") format("woff");
+  src: url("./fonts/Gagalin-Regular.woff2") format("woff2"), url("./fonts/Gagalin-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu-Light';
-  src: url("../fonts/Ubuntu-Light.woff2") format("woff2"), url("../fonts/Ubuntu-Light.woff") format("woff");
+  src: url("./fonts/Ubuntu-Light.woff2") format("woff2"), url("./fonts/Ubuntu-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu';
-  src: url("../fonts/Ubuntu.woff2") format("woff2"), url("../fonts/Ubuntu.woff") format("woff");
+  src: url("./fonts/Ubuntu.woff2") format("woff2"), url("./fonts/Ubuntu.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu-bold';
-  src: url("../fonts/Ubuntu-Bold.woff2") format("woff2"), url("../fonts/Ubuntu-Bold.woff") format("woff");
+  src: url("./fonts/Ubuntu-Bold.woff2") format("woff2"), url("./fonts/Ubuntu-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Ubuntu-Medium';
-  src: url("../fonts/Ubuntu-Medium.woff2") format("woff2"), url("../fonts/Ubuntu-Medium.woff") format("woff");
+  src: url("./fonts/Ubuntu-Medium.woff2") format("woff2"), url("./fonts/Ubuntu-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal; }
 
@@ -358,7 +358,7 @@ template {
   width: 3.125rem;
   height: 1.875rem;
   display: none;
-  background-image: url("../images/img/arrow-scroll.png");
+  background-image: url("./images/img/arrow-scroll.png");
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -366,7 +366,7 @@ template {
   display: flex;
   align-items: center;
   height: 100vh;
-  background-image: url("../images/img/bg-best.png");
+  background-image: url("./images/img/bg-best.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -468,7 +468,7 @@ template {
   height: 5.625rem;
   background-color: #e45028;
   border-radius: 0.3125rem;
-  background-image: url("../images/icon/burger.svg");
+  background-image: url("./images/icon/burger.svg");
   background-position: center 25%;
   background-repeat: no-repeat;
   font-family: "Gagalin-Regular";
@@ -515,7 +515,7 @@ template {
   position: relative;
   width: 4.6875rem;
   height: 5.9375rem;
-  background-image: url("../images/icon/kkal.svg");
+  background-image: url("./images/icon/kkal.svg");
   background-position: center 20%;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -551,7 +551,7 @@ template {
   padding: 4%; }
 
 .burgers {
-  background-image: url("../images/img/burger-background.jpg");
+  background-image: url("./images/img/burger-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -621,7 +621,7 @@ template {
   z-index: 10;
   top: -4.4375rem;
   left: 5.625rem;
-  background-image: url("../images/img/burger__subsection-list.png");
+  background-image: url("./images/img/burger__subsection-list.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -664,32 +664,32 @@ template {
   color: #333333; }
 
 .beef {
-  background-image: url("../images/icon/beef.svg");
+  background-image: url("./images/icon/beef.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .rolls {
-  background-image: url("../images/icon/buns.svg");
+  background-image: url("./images/icon/buns.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .green {
-  background-image: url("../images/icon/salad.svg");
+  background-image: url("./images/icon/salad.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .sauce {
-  background-image: url("../images/icon/sauce.svg");
+  background-image: url("./images/icon/sauce.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .produce {
-  background-image: url("../images/icon/cucumber.svg");
+  background-image: url("./images/icon/cucumber.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .cheese {
-  background-image: url("../images/icon/cheese.svg");
+  background-image: url("./images/icon/cheese.svg");
   background-position: center;
   background-repeat: no-repeat; }
 
@@ -791,7 +791,7 @@ template {
       flex-direction: column; } }
 
 .delivery {
-  background-image: url("../images/img/bg-delivery.png");
+  background-image: url("./images/img/bg-delivery.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -831,7 +831,7 @@ template {
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
-  background-image: url("../images/img/Ellipse-fix.png");
+  background-image: url("./images/img/Ellipse-fix.png");
   background-position: center;
   background-repeat: no-repeat;
   display: block;
@@ -840,7 +840,7 @@ template {
     background-color: #E45028; }
 
 .footer {
-  background-image: url("../images/img/footer-bg.jpg");
+  background-image: url("./images/img/footer-bg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1180,7 +1180,7 @@ li {
 .hero {
   position: relative;
   height: 100vh;
-  background-image: url("../images/img/bg-section-header.jpg");
+  background-image: url("./images/img/bg-section-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -1289,13 +1289,13 @@ li {
     bottom: 0;
     background: rgba(20, 20, 20, 0.7); }
   .menu-accordeon__trigger--meat {
-    background-image: url("../images/img/menu-meat.jpg");
+    background-image: url("./images/img/menu-meat.jpg");
     background-position: center; }
   .menu-accordeon__trigger--vegans {
-    background-image: url("../images/img/menu-vegan.jpg");
+    background-image: url("./images/img/menu-vegan.jpg");
     background-position: center; }
   .menu-accordeon__trigger--diet {
-    background-image: url("../images/img/menu-diet.jpg");
+    background-image: url("./images/img/menu-diet.jpg");
     background-position: center; }
   @media screen and (max-width: 768px) {
     .menu-accordeon__trigger {
@@ -1337,7 +1337,7 @@ li {
       padding: 4.6875rem 0.9375rem; } }
 
 .menu {
-  background: url("../images/img/bg-menu.png") 50% no-repeat;
+  background: url("./images/img/bg-menu.png") 50% no-repeat;
   background-size: cover;
   position: relative; }
 
@@ -1435,7 +1435,7 @@ li {
 .person__arrow {
   width: 8px;
   height: 8px;
-  background-image: url("../images/img/person__arow.png");
+  background-image: url("./images/img/person__arow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1654,7 +1654,7 @@ li {
   position: absolute;
   top: 25px;
   right: 30px;
-  background-image: url("../images/img/close-popup.png");
+  background-image: url("./images/img/close-popup.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -1687,7 +1687,7 @@ li {
       min-height: 62.8125rem; } }
 
 .section-team {
-  background-image: url("../images/img/team-bg.jpg");
+  background-image: url("./images/img/team-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1749,7 +1749,7 @@ li {
   height: 28px;
   position: absolute;
   bottom: 47%;
-  background-image: url("../images/img/arrow__slider-left.png");
+  background-image: url("./images/img/arrow__slider-left.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1763,7 +1763,7 @@ li {
       left: 3%; } }
 
 .slider__arrow-rigth {
-  background-image: url("../images/img/arrow__slider-rigtht.png");
+  background-image: url("./images/img/arrow__slider-rigtht.png");
   right: 0; }
   @media screen and (max-width: 768px) {
     .slider__arrow-rigth {
@@ -1941,7 +1941,7 @@ li {
       text-align: center; } }
 
 .video {
-  background: url("../images/img/video-bg.jpg") center center/cover no-repeat;
+  background: url("./images/img/video-bg.jpg") center center/cover no-repeat;
   display: flex;
   align-items: center; }
 
